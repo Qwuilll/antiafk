@@ -18,7 +18,7 @@ ca.TextSize=22
 local bb=game:service'VirtualUser'
 game:service'Players'.LocalPlayer.Idled:connect(function()
     bb:CaptureController()bb:ClickButton2(Vector2.new())
-    caText="You went idle and ROBLOX tried to kick you but we reflected it!"
+    ca.Text="You went idle and ROBLOX tried to kick you but we reflected it!"
     wait(2)
     ca.Text="Script Re-Enabled"
 end)
